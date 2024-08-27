@@ -1,7 +1,3 @@
-Here’s an updated version of the `README.md` content for your Cron Expression Parser project:
-
----
-
 # Cron Expression Parser
 
 ## Overview
