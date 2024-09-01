@@ -50,11 +50,11 @@ public class CronDefinitionBuilder {
 
     public static CronDefinition unixCron() {
         return CronDefinitionBuilder.defineCron()
-                .withMinutes().withValidRange(0, 59).and()
-                .withHours().withValidRange(0, 23).and()
-                .withDayOfMonth().withValidRange(1, 31).and()
-                .withMonth().withValidRange(1, 12).and()
-                .withDayOfWeek().withValidRange(0, 7).and()
+                .withMinutes().and()
+                .withHours().and()
+                .withDayOfMonth().and()
+                .withMonth().and()
+                .withDayOfWeek().and()
                 .instance();
     }
 }
